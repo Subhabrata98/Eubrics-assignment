@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title> HOME PAGE</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+body
+{
+    font-family:Bebas Neue;
+    background-image: url('https://wallpaperaccess.com/full/6843265.jpg');
+    /*display: flex;*/
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+@-webkit-keyframes Gradient {
+    0%{
+        background-position: 0% 50%
+   }
+    50%{
+        background-position: 100% 50%
+   }
+    100%{
+        background-position: 0% 50%
+   }
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 45px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(221, 0, 255);
+    border-radius: 6px;
+}
+
+.submit:hover{
+                cursor: pointer;
+                background-color: rgb(221, 0, 255);
+}
+
+
+h1{
+    font-family: Copperplate;
+    font-weight:lighter;
+    font-size:100px;
+    color:rgba(38, 29, 29, 0.997);
+    text-align:center;
+    padding-top:0px;
+    margin-bottom:0;
+}
+
+
+.media{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: translate(-40%,-40%);
+    
+
+}
+
+li {
+    list-style:none;
+    text-align: center;
+    margin:5px 20px;
+    display:inline-block;
+    font-size:20px;
+    padding:10px 10px;
+    color:black;
+    border:2px solid blueviolet;
+    border-radius:6%;
+    transition:.5s;
+    
+}
+
+li:hover {
+    color:black;
+    border:3px solid#292929;
+    transition:.5s;
+}
+   
+
+   
+        </style>
+    </head>
+    <body>
+        <form action="login2.html" class="login">
+            <input type="submit" class="submit"  value="Logout">
+        </form>
+            <h1>Assignment</h1>
+            <div class="media">
+                <ul>
+                    <a href="md.html"><li >Making Decisions</li></a>
+                    <a href="tl.html"><li >Thinking Laterally</li></a>
+                    <a href="in.html"><li >Influencing & Negotiating</li></a>
+                    <a href="mc.html"><li >Managing Conflict</li></a>
+                    <a href="dr.html"><li >Driving Results</li></a>
+                </ul>
+            </div>
+    </body>
+</html>
